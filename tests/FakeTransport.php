@@ -10,7 +10,9 @@ final class FakeTransport implements TransportInterface
     /** @var array<int, array{method: string, url: string, headers: array<string, string>, body: ?string}> */
     public array $requests = [];
 
-    public function __construct(private readonly RawResponse $response) {}
+    public function __construct(private readonly RawResponse $response)
+    {
+    }
 
     public function send(string $method, string $url, array $headers, ?string $body): RawResponse
     {

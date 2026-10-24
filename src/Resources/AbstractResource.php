@@ -6,5 +6,7 @@ use Toneflix\Paystack\Paystack;
 
 abstract class AbstractResource
 {
-    public function __construct(protected readonly Paystack $client) {}
+    public function __construct(protected readonly Paystack $client)
+    {
+    }
 }
