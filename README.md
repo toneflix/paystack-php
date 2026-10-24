@@ -1,8 +1,8 @@
 # Toneflix Paystack PHP
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/toneflix/paystack-php.svg?style=flat-square)](https://packagist.org/packages/toneflix/paystack-php)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/toneflix/paystack.svg?style=flat-square)](https://packagist.org/packages/toneflix/paystack)
 [![Tests](https://github.com/toneflix/paystack-php/actions/workflows/run-tests.yml/badge.svg)](https://github.com/toneflix/paystack-php/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/toneflix/paystack-php.svg?style=flat-square)](https://packagist.org/packages/toneflix/paystack-php)
+[![Total Downloads](https://img.shields.io/packagist/dt/toneflix/paystack.svg?style=flat-square)](https://packagist.org/packages/toneflix/paystack)
 
 ## Introduction
 
@@ -14,7 +14,7 @@ the transport is swappable for testing).
 ## Installation
 
 ```bash
-composer require toneflix/paystack-php
+composer require toneflix/paystack
 ```
 
 ## Usage
