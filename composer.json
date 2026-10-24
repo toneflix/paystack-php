@@ -1,5 +1,5 @@
 {
-    "name": "toneflix/paystack",
+    "name": "toneflix/paystack-php",
     "description": "A modern, dependency-light PHP client for the Paystack API.",
     "keywords": [
         "paystack",
